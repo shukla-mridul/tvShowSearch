@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <link rel="stylesheet" href="tvShowSearch.css">
+    <link rel="icon" href="logo.png">
+</head>
+
+<body>
+    <section id="head">
+        <img src="logo.png" alt="">
+        <!-- <h1>Search for your Show</h1> -->
+        <form id="showsearch" action="">
+            <input id="showname" placeholder="Enter a show name" type="text">
+            <!-- <label>Date Aired <input id="airdate" type="text"></label> -->
+            <select name="minrating" id="minrating">
+                <option value=""></option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+            </select>
+            <button id="searchbtn">&#x1F50E;&#xFE0E;</button>
+        </form>
+    </section>
+    <section id="display">
+
+    </section>
+    <footer></sub>Powered by <a href="https://www.tvmaze.com/api">TVMAZE</a></sub></footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="tvShowSearch.js"></script>
+</body>
+
+</html>
